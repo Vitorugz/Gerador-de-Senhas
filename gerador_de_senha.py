@@ -6,6 +6,7 @@ numeros = '0123456789'
 simbolos = '@#$%*/\?'
 
 Use_for = minusculas + maiusculas + numeros + simbolos
+# Aqui podemos escolher quantos caracteres teremos na senhna
 tamanha_da_senha = 8
 
 password = "".join(random.sample(Use_for, tamanha_da_senha))
